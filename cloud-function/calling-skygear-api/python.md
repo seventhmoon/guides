@@ -215,9 +215,9 @@ notification = {
         'operation': 'notification',
     },
     'gcm': {
-         'data': {
+         'notification': {
               'title': title,
-              'message': message,
+              'body': message,
           }
     },
 }
