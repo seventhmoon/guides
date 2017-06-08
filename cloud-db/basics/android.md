@@ -28,7 +28,7 @@ In the SDK, you can get the public or private database using:
 
 ```java
 // get Skygear Container
-Container skygear = Container.defaultContainer(this);
+Container skygear = Container.defaultContainer(getApplicationContext());
 
 // get public database
 Database publicDatabase = skygear.getPublicDatabase();
